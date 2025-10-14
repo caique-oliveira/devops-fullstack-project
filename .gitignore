@@ -1,0 +1,11 @@
+# Ignorar dependências do Node.js
+node_modules/
+
+# Ignorar variáveis de ambiente (como senhas e tokens)
+.env
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar dados persistentes do MongoDB (se rodar localmente)
+mongo-data/
